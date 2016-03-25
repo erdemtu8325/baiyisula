@@ -20,8 +20,13 @@
     label.backgroundColor = [UIColor redColor];
     [self.view addSubview:label];
     
+
     
     NSLog(@"aaaaaaaaaa");
+
+    UITextField *filed = [[UITextField alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:filed];
+
 }
 
 - (void)didReceiveMemoryWarning {
