@@ -19,6 +19,9 @@
     UILabel *label = [[UILabel alloc]initWithFrame:[UIScreen mainScreen].bounds];
     label.backgroundColor = [UIColor redColor];
     [self.view addSubview:label];
+    
+    
+    NSLog(@"aaaaaaaaaa");
 }
 
 - (void)didReceiveMemoryWarning {
