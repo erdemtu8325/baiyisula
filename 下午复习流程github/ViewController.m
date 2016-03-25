@@ -19,6 +19,9 @@
     UILabel *label = [[UILabel alloc]initWithFrame:[UIScreen mainScreen].bounds];
     label.backgroundColor = [UIColor redColor];
     [self.view addSubview:label];
+    
+    UITextField *filed = [[UITextField alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:filed];
 }
 
 - (void)didReceiveMemoryWarning {
